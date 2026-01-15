@@ -1,7 +1,7 @@
 {
   "name": "@type32/nuxt-predicates",
-  "version": "1.0.0",
-  "description": "My new Nuxt module",
+  "version": "1.0.1",
+  "description": "A client/server-friendly predicates module for Nuxt.",
   "repository": "https://github.com/CTRL-Neo-Studios/nuxt-predicates",
   "license": "MIT",
   "type": "module",
