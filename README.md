@@ -4,17 +4,12 @@ Get your module up and running quickly.
 Find and replace all on all files (CMD+SHIFT+F):
 - Name: Nuxt Predicates
 - Package name: @type32/nuxt-predicates
-- Description: My new Nuxt module
+- Description: A client/server-friendly predicates module for Nuxt.
 -->
 
 # Nuxt Predicates
 
-[![bun version][bun-version-src]][bun-version-href]
-[![bun downloads][bun-downloads-src]][bun-downloads-href]
-[![License][license-src]][license-href]
-[![Nuxt][nuxt-src]][nuxt-href]
-
-My new Nuxt module for doing amazing things.
+A client/server-friendly predicates module for Nuxt.
 
 - [✨ &nbsp;Release Notes](/CHANGELOG.md)
 <!-- - [🏀 Online playground](https://stackblitz.com/github/your-org/my-module?file=playground%2Fapp.vue) -->
@@ -68,17 +63,3 @@ That's it! You can now use Nuxt Predicates in your Nuxt app ✨
   ```
 
 </details>
-
-
-<!-- Badges -->
-[bun-version-src]: https://img.shields.io/bun/v/my-module/latest.svg?style=flat&colorA=020420&colorB=00DC82
-[bun-version-href]: https://bunjs.com/package/my-module
-
-[bun-downloads-src]: https://img.shields.io/bun/dm/my-module.svg?style=flat&colorA=020420&colorB=00DC82
-[bun-downloads-href]: https://bun.chart.dev/my-module
-
-[license-src]: https://img.shields.io/bun/l/my-module.svg?style=flat&colorA=020420&colorB=00DC82
-[license-href]: https://bunjs.com/package/my-module
-
-[nuxt-src]: https://img.shields.io/badge/Nuxt-020420?logo=nuxt
-[nuxt-href]: https://nuxt.com
