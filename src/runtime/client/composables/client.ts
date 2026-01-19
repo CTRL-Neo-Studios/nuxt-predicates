@@ -28,6 +28,8 @@ export function usePredicateLogic() {
 	// Reactive (Sync) - Returns ComputedRef<boolean>
 	const evaluate = (input: any) => computed(() => resolveC(input));
 
+	const evaluateUnref = (input: any) => universalUnwrap(evaluate(input));
+
 	// Async (One-off) - Returns Promise<boolean>
 	const evaluateAsync = async (input: any) => {
 		let val = universalUnwrap(input);
@@ -36,5 +38,9 @@ export function usePredicateLogic() {
 		return !!val;
 	};
 
-	return { and, or, not, evaluate, evaluateAsync };
+	const evaluateAsyncUnref = async (input: any)=> {
+		return universalUnwrap(await evaluateAsync(input))
+	}
+
+	return { and, or, not, evaluate, evaluateUnref, evaluateAsync, evaluateAsyncUnref };
 }
